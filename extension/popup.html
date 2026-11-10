@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>filmil's Tab Shortcuts</title>
+  <link rel="stylesheet" href="popup.css">
+  <script type="module" src="popup.js"></script>
+</head>
+<body>
+  <h1>filmil's Tab Shortcuts</h1>
+  <div class="column" id="buttons">
+    <button type="button" data-command="close-left">Close tabs to the left<kbd></kbd></button>
+    <button type="button" data-command="close-right">Close tabs to the right<kbd></kbd></button>
+    <button type="button" data-command="close-others">Close other tabs<kbd></kbd></button>
+    <button type="button" data-command="toggle-pin">Pin or unpin this tab<kbd></kbd></button>
+  </div>
+  <p class="hint">Pinned tabs are never closed. To change the keys, open
+    <button type="button" class="link" id="shortcuts">the shortcuts page</button>.</p>
+  <p id="error" role="alert"></p>
+</body>
+</html>

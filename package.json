@@ -1,0 +1,13 @@
+{
+  "name": "chrome-tab-shortcuts",
+  "private": true,
+  "description": "A Chrome extension with keyboard shortcuts to close and pin tabs, with no permissions.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "test:e2e": "node --test --test-concurrency=1 test/e2e.test.mjs"
+  },
+  "devDependencies": {
+    "puppeteer": "25.13.0"
+  }
+}
